@@ -2,7 +2,6 @@
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
 # documentation.
-
 name: Dart and Flutter
 
 on:
@@ -24,9 +23,10 @@ jobs:
           sdk: stable
 
       # Set up the Flutter SDK
-      - uses: subosito/flutter-action@v2
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'stable'
+          flutter-version: '3.22.1' # Specify a known stable version explicitly
 
       - name: Install dependencies
         run: flutter pub get
