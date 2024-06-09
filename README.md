@@ -94,5 +94,5 @@ Please file feature requests and bugs at the [issue tracker][tracker].
 This project is licensed under the MIT License - see the [LICENSE][license] file for details.
 
 [pub]: https://pub.dartlang.org/packages/month_year_picker2
-[tracker]: https://github.com/zulfahmi93/dart_libpray/issues
+[tracker]: https://github.com/YawarOsman/month_year_picker2/issues
 [license]: LICENSE
